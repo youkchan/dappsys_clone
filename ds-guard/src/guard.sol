@@ -17,7 +17,7 @@
 
 pragma solidity ^0.4.23;
 
-import "ds-auth/auth.sol";
+import '../../ds-auth/src/auth.sol';
 
 contract DSGuardEvents {
     event LogPermit(
