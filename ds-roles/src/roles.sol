@@ -17,7 +17,7 @@
 
 pragma solidity ^0.4.13;
 
-import 'ds-auth/auth.sol';
+import '../../ds-auth/src/auth.sol';
 
 contract DSRoles is DSAuth, DSAuthority
 {
